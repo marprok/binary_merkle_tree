@@ -9,3 +9,5 @@ Makes use of `libssl-dev`
 
 # Usage
 `./main file_name block_size`
+
+`block_size` is the number of bytes that the file will be "split" into, aka the data block size.
