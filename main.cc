@@ -89,7 +89,7 @@ int main(int argc, char** argv)
 {
     if (argc != 3)
     {
-        std::cerr << "Usage: " << argv[0] << "file_name block_size\n";
+        std::cerr << "Usage: " << argv[0] << " file_name block_size\n";
         std::exit(EXIT_FAILURE);
     }
 
